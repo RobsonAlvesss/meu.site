@@ -1,0 +1,53 @@
+/* Estilos para o cabeçalho */
+header {
+    text-align: center;
+    background-color: #333; /* Cor de fundo escura para o cabeçalho */
+    color: #f0e9e9; /* Cor do texto no cabeçalho */
+    padding: 20px; /* Espaçamento interno no cabeçalho */
+}
+
+/* Estilos para o menu de navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+nav li {
+    font-size: 16px;
+}
+
+/* Estilos para o conteúdo principal (main) */
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: #e9efd0; /* Cor de fundo para o conteúdo principal */
+    padding: 20px; /* Espaçamento interno no conteúdo principal */
+}
+
+/* Estilos para as imagens nas <aside> */
+aside img {
+    max-width: 190px;
+    height: auto;
+}
+
+/* Estilos para o texto no meio */
+main div {
+    text-align: center;
+}
+
+/* Estilos para o rodapé (footer) */
+footer {
+    text-align: center;
+
+ background-color: #333; /* Cor de fundo escura para o rodapé */
+    color: #fff; /* Cor do texto no rodapé */
+    padding: 10px; /* Espaçamento interno no rodapé */
+}
+
+/* Outros estilos (como cores, fontes, tamanhos etc.) podem ser adicionados conforme necessário */
